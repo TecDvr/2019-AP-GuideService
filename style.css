@@ -4,9 +4,23 @@
     box-sizing: border-box;
 }
 
-header, footer {
+header, footer, .service {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.service {
+    background-color: lightgray;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: row;
+}
+
+.tabs li {
+    list-style: none;
+    margin: 0px 10px 0px 10px;
 }
